@@ -41,6 +41,12 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+		
+		[HttpPost]
+        public IEnumerable<WeatherForecast> Post()
+        {
+            return Ok();
+        }
 
     }
 }

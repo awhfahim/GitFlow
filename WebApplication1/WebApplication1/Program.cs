@@ -16,6 +16,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 //added a aasdfsf
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
